@@ -1,10 +1,11 @@
+import Sidebar from "@/components/custom/Sidebar"
 
 
 const HomePage = () => {
   return (
     <div className="flex bg-gray-900 text-white">
-      <div>
-        Main something
+      <div className="flex">
+        <Sidebar />
       </div>
     </div>
   )
